@@ -1,0 +1,29 @@
+.top-nav {
+    display: flex;
+    justify-content: space-between; /* Distributes items with equal space between them */
+    align-items: center; /* Centers items vertically */
+    background-color: #f1f1f1;
+    /* padding: 10px; */
+    /* border-bottom: 1px solid #ddd; */
+  }
+  
+  .tab {
+    flex: 1; /* Ensures each tab takes equal space */
+    text-align: center; /* Centers text within the tab */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-decoration: none;
+    color: black;
+    background-color: #e0e0e0;
+    /* border-radius: 4px; */
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #007bff; /* Active tab background color */
+    color: white; /* Active tab text color */
+  }
+  
+  .tab:hover {
+    background-color: #ddd; /* Hover background color */
+  }
+  
